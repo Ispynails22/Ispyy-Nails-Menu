@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ispy Nails – Your Dream Set Awaits!</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            /* Dark background for luxury feel */
+            background-color: #1a1a2e; /* Deep dark blue/purple */
+            color: #e0e0e0; /* Light grey text */
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #6a0572, #8e2de2); /* Purple gradient */
+        }
+        .text-purple-accent {
+            color: #c084fc; /* Lighter purple accent */
+        }
+        .border-purple-accent {
+            border-color: #c084fc;
+        }
+        .shadow-purple {
+            box-shadow: 0 10px 15px -3px rgba(192, 132, 252, 0.3), 0 4px 6px -2px rgba(192, 132, 252, 0.15);
+        }
+        .card {
+            background-color: #28284a; /* Slightly lighter dark blue for cards */
+        }
+        .ai-button {
+            background-color: #c084fc;
+            color: #1a1a2e;
+            font-weight: bold;
+            padding: 0.75rem 1.5rem;
+            border-radius: 9999px;
+            transition: background-color 0.3s ease-in-out;
+        }
+        .ai-button:hover {
+            background-color: #a78bfa;
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <div class="min-h-screen flex flex-col items-center py-8 px-4 sm:px-6 lg:px-8">
+        <!-- Header Section -->
+        <header class="text-center mb-12 max-w-4xl w-full">
+            <h1 class="text-5xl sm:text-6xl font-extrabold text-white mb-4 leading-tight">
+                Ispy Nails
+            </h1>
+            <p class="text-2xl sm:text-3xl text-purple-accent font-semibold mb-6">
+                💎✨ Ready for Nails That Turn Heads? Your Dream Set Awaits! ✨💎
+            </p>
+            <p class="text-lg sm:text-xl text-gray-300 leading-relaxed">
+                Welcome to Ispy Nails – where luxury meets creativity, and every set is crafted with love and precision! 💜 We're dedicated to giving you the most stunning, long-lasting, and always cute nails that perfectly express you.
+            </p>
+            <p class="text-md sm:text-lg text-gray-400 mt-4">
+                Scroll down for our full service menu and essential booking policies designed to make your experience seamless and sparkling!
+            </p>
+        </header>
+
+        <!-- Hero Image Section -->
+        <section class="mb-12 max-w-4xl w-full rounded-2xl overflow-hidden shadow-2xl shadow-purple">
+            <img
+                src="https://placehold.co/1200x600/6a0572/ffffff?text=Glamorous+Nails"
+                alt="Glamorous nail set featuring purple, white, and black elements with subtle sparkle"
+                class="w-full h-auto object-cover"
+                onerror="this.onerror=null;this.src='https://placehold.co/1200x600/28284a/e0e0e0?text=Ispy+Nails+Placeholder';"
+            >
+        </section>
+
+        <!-- Service Menu Section -->
+        <section class="max-w-4xl w-full mb-12 p-6 card rounded-2xl shadow-xl shadow-purple">
+            <h2 class="text-4xl font-bold text-center text-purple-accent mb-8">
+                💜 Ispy Nails – Full Service Menu 💜
+            </h2>
+            <p class="text-center text-gray-400 mb-8 text-lg italic">Luxury. Creative. Always cute.</p>
+
+            <!-- Acrylic Sets + Refills -->
+            <div class="mb-8">
+                <h3 class="text-3xl font-semibold text-white mb-4 border-b-2 border-purple-accent pb-2">
+                    🎀 Acrylic Sets + Refills
+                </h3>
+                <ul class="space-y-3 text-lg">
+                    <li class="flex justify-between items-center">
+                        <span>Short:</span>
+                        <span class="font-medium text-purple-accent">$50 | Refill: $45</span>
+                    </li>
+                    <li class="flex justify-between items-center">
+                        <span>Medium:</span>
+                        <span class="font-medium text-purple-accent">$60 | Refill: $55</span>
+                    </li>
+                    <li class="flex justify-between items-center">
+                        <span>Long:</span>
+                        <span class="font-medium text-purple-accent">$70 | Refill: $65</span>
+                    </li>
+                    <li class="flex justify-between items-center">
+                        <span>XL:</span>
+                        <span class="font-medium text-purple-accent">$80 | Refill: $75</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Overlay / Gel / Color Change -->
+            <div class="mb-8">
+                <h3 class="text-3xl font-semibold text-white mb-4 border-b-2 border-purple-accent pb-2">
+                    💅 Overlay / Gel / Color Change
+                </h3>
+                <ul class="space-y-3 text-lg">
+                    <li class="flex justify-between items-center">
+                        <span>Acrylic Overlay:</span>
+                        <span class="font-medium text-purple-accent">$45</span>
+                    </li>
+                    <li class="flex justify-between items-center">
+                        <span>Gel Manicure:</span>
+                        <span class="font-medium text-purple-accent">$30</span>
+                    </li>
+                    <li class="flex justify-between items-center">
+                        <span>Color Change:</span>
+                        <span class="font-medium text-purple-accent">$15</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Nail Designs & Art Add-Ins -->
+            <div class="mb-8">
+                <h3 class="text-3xl font-semibold text-white mb-4 border-b-2 border-purple-accent pb-2">
+                    🎨 Nail Designs & Art Add-Ins
+                </h3>
+                <ul class="space-y-3 text-lg">
+                    <li class="flex justify-between items-center">
+                        <span>✨ Simple Design (1 nail each hand):</span>
+                        <span class="font-medium text-purple-accent">$5</span>
+                    </li>
+                    <li class="flex justify-between items-center">
+                        <span>✨ Simple Add-In:</span>
+                        <span class="font-medium text-purple-accent">$2</span>
+                    </li>
+                    <li class="flex justify-between items-center">
+                        <span>✨ Complex Design (all nails):</span>
+                        <span class="font-medium text-purple-accent">$10–15</span>
+                    </li>
+                    <li class="flex justify-between items-center">
+                        <span>🌸 3D Flowers (per nail):</span>
+                        <span class="font-medium text-purple-accent">$5</span>
+                    </li>
+                    <li class="flex justify-between items-center">
+                        <span>✨ Chrome:</span>
+                        <span class="font-medium text-purple-accent">$5</span>
+                    </li>
+                    <li class="flex justify-between items-center">
+                        <span>✨ Encapsulated Art (total):</span>
+                        <span class="font-medium text-purple-accent">$5–20</span>
+                    </li>
+                    <li class="flex justify-between items-center">
+                        <span>✨ French:</span>
+                        <span class="font-medium text-purple-accent">Add-on based on style</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Rhinestones & Gems -->
+            <div class="mb-8">
+                <h3 class="text-3xl font-semibold text-white mb-4 border-b-2 border-purple-accent pb-2">
+                    💎 Rhinestones & Gems
+                </h3>
+                <ul class="space-y-3 text-lg">
+                    <li>
+                        <span class="block">Classic Gems:</span>
+                        <ul class="ml-4 space-y-1">
+                            <li class="flex justify-between items-center">
+                                <span>2 for</span>
+                                <span class="font-medium text-purple-accent">$3</span>
+                            </li>
+                            <li class="flex justify-between items-center">
+                                <span>French Gems:</span>
+                                <span class="font-medium text-purple-accent">$4</span>
+                            </li>
+                            <li class="flex justify-between items-center">
+                                <span>4 for</span>
+                                <span class="font-medium text-purple-accent">$6</span>
+                            </li>
+                            <li class="flex justify-between items-center">
+                                <span>6 for</span>
+                                <span class="font-medium text-purple-accent">$9</span>
+                            </li>
+                            <li class="flex justify-between items-center">
+                                <span>10 for</span>
+                                <span class="font-medium text-purple-accent">$12</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="flex justify-between items-center">
+                        <span>✨ Gem Designs:</span>
+                        <span class="font-medium text-purple-accent">$4–$8</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- 3D Charms & Single/Scattered Gems -->
+            <div class="mb-8">
+                <h3 class="text-3xl font-semibold text-white mb-4 border-b-2 border-purple-accent pb-2">
+                    💖 3D Charms & More
+                </h3>
+                <ul class="space-y-3 text-lg">
+                    <li>
+                        <span class="block">Small 3D Charms (total):</span>
+                        <ul class="ml-4 space-y-1">
+                            <li class="flex justify-between items-center">
+                                <span>2 for</span>
+                                <span class="font-medium text-purple-accent">$4</span>
+                            </li>
+                            <li class="flex justify-between items-center">
+                                <span>4 for</span>
+                                <span class="font-medium text-purple-accent">$8</span>
+                            </li>
+                            <li class="flex justify-between items-center">
+                                <span>6 for</span>
+                                <span class="font-medium text-purple-accent">$10</span>
+                            </li>
+                            <li class="flex justify-between items-center">
+                                <span>10 for</span>
+                                <span class="font-medium text-purple-accent">$12</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="flex justify-between items-center">
+                        <span>🌟 Large 3D Charm (per nail/hand):</span>
+                        <span class="font-medium text-purple-accent">$5</span>
+                    </li>
+                    <li class="flex justify-between items-center">
+                        <span>💠 Single Gem (all nails):</span>
+                        <span class="font-medium text-purple-accent">$2</span>
+                    </li>
+                    <li class="flex justify-between items-center">
+                        <span>✨ Scattered Gems (all nails):</span>
+                        <span class="font-medium text-purple-accent">$4–6</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Important Policies Section -->
+        <section class="max-w-4xl w-full mb-12 p-6 card rounded-2xl shadow-xl shadow-purple">
+            <h2 class="text-4xl font-bold text-center text-purple-accent mb-8">
+                ✨ Ispy Nails – Important Policies for a Smooth Experience ✨
+            </h2>
+            <div class="space-y-6 text-lg" id="policy-text">
+                <div>
+                    <h3 class="text-2xl font-semibold text-white mb-2">Booking:</h3>
+                    <p class="text-gray-300">All appointments are by DM only. Please send us your desired service, preferred dates/times, and any inspiration photos.</p>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-semibold text-white mb-2">Deposit:</h3>
+                    <p class="text-gray-300">A non-refundable deposit of $25 is required to secure your appointment. This will be applied to your service total.</p>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-semibold text-white mb-2">Confirmation:</h3>
+                    <p class="text-gray-300">Your appointment is not confirmed until the deposit is received. You'll receive a confirmation message once everything is set!</p>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-semibold text-white mb-2">Late Arrivals:</h3>
+                    <p class="text-gray-300">Please arrive on time! A 15-minute grace period is allowed. After 15 minutes, your appointment may be subject to cancellation or a late fee, and your deposit may be forfeited.</p>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-semibold text-white mb-2">Cancellations/Rescheduling:</h3>
+                    <p class="text-gray-300">We require at least 24 hours notice for cancellations or rescheduling. Less than 24 hours notice will result in forfeiture of your deposit. No-shows will be charged 50% of the service total.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- AI Nail Design Idea Generator Section -->
+        <section class="max-w-4xl w-full mb-12 p-6 card rounded-2xl shadow-xl shadow-purple">
+            <h2 class="text-4xl font-bold text-center text-purple-accent mb-8">
+                ✨ Get Your Custom Nail Design Idea! ✨
+            </h2>
+            <div class="space-y-4">
+                <textarea id="nailIdeaInput" rows="4" class="w-full p-3 rounded-lg bg-gray-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-accent" placeholder="Describe your dream nails! E.g., 'purple and black for a gothic look', 'pastel colors for spring', 'bold and bright for a party', 'elegant and subtle for a wedding'..."></textarea>
+                <button id="generateIdeaBtn" class="ai-button w-full">✨ Generate Idea ✨</button>
+                <div id="nailIdeaOutput" class="mt-4 p-4 rounded-lg bg-gray-700 text-gray-200 min-h-[80px] flex items-center justify-center text-center">
+                    Your custom nail design idea will appear here!
+                </div>
+            </div>
+        </section>
+
+        <!-- AI Policy Clarifier Section -->
+        <section class="max-w-4xl w-full mb-12 p-6 card rounded-2xl shadow-xl shadow-purple">
+            <h2 class="text-4xl font-bold text-center text-purple-accent mb-8">
+                ✨ Policy Q&A with AI ✨
+            </h2>
+            <div class="space-y-4">
+                <textarea id="policyQuestionInput" rows="2" class="w-full p-3 rounded-lg bg-gray-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-accent" placeholder="Ask a question about our policies. E.g., 'What happens if I'm late?', 'Is the deposit refundable?', 'How do I reschedule?'"></textarea>
+                <button id="clarifyPolicyBtn" class="ai-button w-full">✨ Clarify Policy ✨</button>
+                <div id="policyAnswerOutput" class="mt-4 p-4 rounded-lg bg-gray-700 text-gray-200 min-h-[80px] flex items-center justify-center text-center">
+                    Your policy answer will appear here!
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section class="text-center max-w-4xl w-full p-6 bg-gradient-to-r from-purple-600 to-indigo-700 rounded-2xl shadow-2xl shadow-purple">
+            <p class="text-2xl sm:text-3xl font-bold text-white mb-4">
+                Ready to transform your nails? 💖
+            </p>
+            <a href="https://instagram.com/IspyNails" target="_blank" rel="noopener noreferrer"
+               class="inline-block bg-white text-purple-800 font-bold py-3 px-8 rounded-full text-xl hover:bg-gray-200 transition duration-300 ease-in-out shadow-lg">
+                DM @IspyNails to book your custom dream set!
+            </a>
+            <p class="text-lg text-gray-200 mt-4">
+                We can't wait to create magic with you!
+            </p>
+        </section>
+
+        <!-- Hashtags Footer -->
+        <footer class="mt-12 text-center text-gray-500 text-sm max-w-4xl w-full">
+            <p>
+                #IspyNails #NailArtMenu #LuxuryNails #AllentownNails #LehighValleyNails #NailGoals #BookNow #PurpleNails #WhiteNails #BlackNails #NailPolicies #NailArtistPA #CustomNails #DreamSet
+            </p>
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const nailIdeaInput = document.getElementById('nailIdeaInput');
+            const generateIdeaBtn = document.getElementById('generateIdeaBtn');
+            const nailIdeaOutput = document.getElementById('nailIdeaOutput');
+
+            const policyQuestionInput = document.getElementById('policyQuestionInput');
+            const clarifyPolicyBtn = document.getElementById('clarifyPolicyBtn');
+            const policyAnswerOutput = document.getElementById('policyAnswerOutput');
+            const policyTextElement = document.getElementById('policy-text');
+
+            // Extract all policy text from the relevant section
+            const fullPolicyText = Array.from(policyTextElement.querySelectorAll('p'))
+                                        .map(p => p.textContent.trim())
+                                        .join('\n');
+
+            // Function to call Gemini API
+            async function callGeminiAPI(prompt, outputElement, buttonElement) {
+                outputElement.textContent = 'Generating... Please wait.';
+                buttonElement.disabled = true;
+                buttonElement.classList.add('opacity-50', 'cursor-not-allowed');
+
+                try {
+                    let chatHistory = [];
+                    chatHistory.push({ role: "user", parts: [{ text: prompt }] });
+                    const payload = { contents: chatHistory };
+                    const apiKey = ""; // Keep this empty; Canvas will provide it at runtime
+                    const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
+
+                    const response = await fetch(apiUrl, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(payload)
+                    });
+
+                    const result = await response.json();
+
+                    if (result.candidates && result.candidates.length > 0 &&
+                        result.candidates[0].content && result.candidates[0].content.parts &&
+                        result.candidates[0].content.parts.length > 0) {
+                        const text = result.candidates[0].content.parts[0].text;
+                        outputElement.textContent = text;
+                    } else {
+                        outputElement.textContent = 'Could not generate a response. Please try again.';
+                        console.error('Unexpected API response structure:', result);
+                    }
+                } catch (error) {
+                    outputElement.textContent = 'An error occurred. Please try again later.';
+                    console.error('Error calling Gemini API:', error);
+                } finally {
+                    buttonElement.disabled = false;
+                    buttonElement.classList.remove('opacity-50', 'cursor-not-allowed');
+                }
+            }
+
+            // Event Listener for Nail Design Idea Generator
+            generateIdeaBtn.addEventListener('click', () => {
+                const userPreference = nailIdeaInput.value.trim();
+                if (userPreference) {
+                    const prompt = `Generate a creative and detailed nail design idea based on the following preferences: "${userPreference}". Focus on colors, patterns, and any specific themes mentioned. Keep it concise and inspiring.`;
+                    callGeminiAPI(prompt, nailIdeaOutput, generateIdeaBtn);
+                } else {
+                    nailIdeaOutput.textContent = 'Please describe your nail design preferences.';
+                }
+            });
+
+            // Event Listener for Policy Clarifier
+            clarifyPolicyBtn.addEventListener('click', () => {
+                const userQuestion = policyQuestionInput.value.trim();
+                if (userQuestion) {
+                    const prompt = `Based on the following Ispy Nails policies:\n\n${fullPolicyText}\n\nAnswer the question: "${userQuestion}". If the question is not directly covered, state that. Be concise and helpful.`;
+                    callGeminiAPI(prompt, policyAnswerOutput, clarifyPolicyBtn);
+                } else {
+                    policyAnswerOutput.textContent = 'Please ask a question about our policies.';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
